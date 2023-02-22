@@ -71,34 +71,6 @@ button:hover{
 
 /* About Us */
 
-.about{
-    color: white;
-    position: relative;
-    margin-top: 18%;
-}
-.about>h1{
-    text-align: center;
-    margin-bottom: 0px;
-}
-
-.about-image{
-    position: absolute;
-    width: 49%;
-    left: 7%;
-    padding: 15px;
-}
-
-.about-para{
-    position: absolute;
-    width: 49%;
-    right: 0px;
-    text-align: justify;
-    padding: 15px;
-}
-
-
-
-
 
 
 
@@ -123,71 +95,3 @@ button:hover{
 
 
 /* Footer */
-.footer{
-    display: flex;
-    flex-direction: row;
-    padding: 10px 20px;
-    gap: 9rem;
-    justify-content: space-between;
-    position: relative;
-}
-.logo>h1{
-    font-size: medium;
-}
-.logo>span{
-    font-size: x-small;
-    font-weight: 100;
-}
-.company>h2{
-    color: white;
-    /* font-size: larger; */
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-.company>ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-}
-.comapny>ul>li{
-    font-weight: 200;
-    font-size: medium;
-}
-.further-info>h2{
-    color: white;
-    /* font-size: larger; */
-    margin-bottom: 1rem;
-
-    font-weight: 700;
-}
-.further-info>ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-}
-.further-info>ul>li{
-    font-weight: 200;
-    font-size: medium;
-}
-.customers>h2{
-    color: white;
-    /* font-size: larger; */
-    margin-bottom: 1rem;
-
-    font-weight: 700;
-}
-.customers>ul{
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-}
-.customers>ul>li{
-    font-weight: 200;
-    font-size: medium;
-}
