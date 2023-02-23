@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Metal+Mania");
 
 
-.body{
+body{
     background-color: black;
 }
 
@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     margin:40px 20px 0 20px;
+    border: 2px solid black;
 }
 .gallary_head{
     font-weight: 500;
