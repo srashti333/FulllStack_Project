@@ -1,70 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+
+
+
+
+
+
 /* header + Banner */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    box-sizing: border-box;
-}
-body{
-    height: 100vh;
-    width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../Images/Hostel.jpg);
-    background-size: cover;
-    background-position: center;
-}
-header{
-    width: 100%;
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background: rgba(0,0,0,0.2);
-}
-.logo{
-    font-size: 30px;
-    font-weight: bold;
-    color: #fff;
-    letter-spacing: 1.5pt;
-    cursor: pointer;
-}
-nav li{
-    display: inline;
-    list-style: none;
-    padding: 0px 20px;
-}
-a,button{
-    font-size: 16px;
-    font-weight: 500;
-    color: #fff;
-    text-decoration: none;
-    cursor: pointer;
-}
-button{
-    background: rgba(0,0,0,0.2);
-    border: 2px solid #fdfdfd;
-    border-radius: 50px;
-    padding: 9px 25px;
-}
-nav li a:hover{
-    color: darkgoldenrod;
-    transition: all 0.4s ease 0s;
-}
-button:hover{
-    background-color: rgb(66, 112, 148);
-    transition: all 0.4s ease 0s;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -82,6 +25,56 @@ button:hover{
 
 
 /* Galary +Facilities */
+
+.gallary{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:40px 20px 0 20px;
+}
+.gallary_head{
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 3.5rem;
+    margin-bottom: 4%;
+    border-bottom: 5px solid black;
+    padding: 2.5%;
+}
+.gallary_head span{
+    font-weight: 900 !important;
+    font-family: 'Pacifico', cursive;
+}
+.gallary .box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+    overflow:scroll;
+}
+::-webkit-scrollbar {
+    display: none;
+    }
+.box .baby_box{
+    margin-top: auto;
+    display:flex;
+    flex-direction: column;
+    width:32.3%;
+}
+.box .baby_box img, video{
+    width:100%;
+    margin-bottom: 5%;
+    border-radius: 3%;
+    transition: 800ms ease-out;
+}
+.box .baby_box img:hover{
+    transform: scale(1.3);
+    
+}
 
 
 
